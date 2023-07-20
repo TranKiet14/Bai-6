@@ -1,66 +1,41 @@
 *{
     box-sizing: border-box;
 }
-header{
-    background: #92DFC8;
+.section-1{
+    background: #FBDDDF;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
     text-align: center;
-    padding: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 .content{
-    background: #CAEFF2;
-    width: 70%;
-    height: 500px;
-    padding: 20px;
     text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
 }
-.aside{
-    background: #F2D8CA;
-    width: 30%;
-    height: 500px;
-    padding: 20px;
+.link{
+    display: inline-block;
+    color: #000;
+    text-decoration: underline;
     text-align: center;
+    padding: 5px 5px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
 }
-.box{
-    background: #F1F0C9;
-    text-align: center;
-    padding: 20px;
-    width: 24.2%;
-    height: 150px;
-    margin-bottom: 10px;
-}
-footer{
-    background: #EECBF3;
-    text-align: center;
-    padding: 20px;
-}
-body{
-    margin: 0;
-    padding: 0;
-}
-.container-1{
+.avatar{
     display: flex;
-    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
-.container-2{
-    display: flex;
-    justify-content: space-between;
-}
-@media screen and (max-width: 768px) {
-    .content, .aside{
-        width: 100%;
-    }
-    .container-1{
-        flex-wrap: wrap;
-    }
-    .container-2{
-        flex-wrap: wrap;
-    }
-    .box{
-        width: 49%;
-    }
-@media screen and (max-width: 480px){
-    .box{
-        width: 100%;
-    }
-}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
 }
